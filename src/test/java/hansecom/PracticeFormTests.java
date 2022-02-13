@@ -2,6 +2,7 @@ package hansecom;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Owner;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -16,6 +17,7 @@ import static io.qameta.allure.Allure.step;
 public class PracticeFormTests extends TestBase {
 
     @Test
+    @Owner("Veronika Podgol")
     void successTest() {
         step("открываем нужный репо", () -> {
             open("/automation-practice-form");
