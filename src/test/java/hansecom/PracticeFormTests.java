@@ -99,6 +99,6 @@ public class PracticeFormTests extends TestBase {
                     $("td:nth-child(2)").
                     getText());
         });
-
+ // has been checked
     }
 }
